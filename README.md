@@ -1,48 +1,29 @@
-![example workflow](https://github.com/rzgry/Express-REST-API-Template/actions/workflows/node.js.yml/badge.svg)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+www(server)>database>app.js>route>(middleware)>controller>model
 
-# Express-REST-API-Template
+Book API
 
-Simple express boilerplate based off of [express-generator](https://expressjs.com/en/starter/generator.html). Includes [eslint](https://eslint.org) and [prettier](https://prettier.io) for linting/code formatting, [nodemon](https://github.com/remy/nodemon) for automatic server restarting, and [Jest](https://jestjs.io) for testing.
+1. User Register on the app.
+2. User Login
+3. User Reset Password
+4. User Verify Account
+5. List all Books
+6. User Get a single Book
+7. User Saved Book
+8. User Remove Book from save
+9. Get User Profile
+10. Update User Profile
+11. Delete User Profile
+12. Update(change) Password
 
-## Getting Started
+USER {
+name,
+email,
+password,
+country,
+}
 
-### Install dependencies
-
-```
-npm install
-```
-
-### Running in development
-
-```
-npm run dev
-```
-
-### Running in production
-
-```
-npm start
-```
-
-Runs on localhost:3000 by default but can be configured using the `PORT` environment variable.
-
-### Running tests
-
-```
-npm test
-
-# Watch repo
-npm run test:watch
-```
-
-### Linting
-
-```
-npm run lint
-
-# fix issues
-npm run lint:fix
-```
-
-<!-- package.json>server.js(www)>database>app>routes>controller>model -->
+Book{
+name,
+author,
+description,
+}
