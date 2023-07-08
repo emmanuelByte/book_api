@@ -22,6 +22,10 @@ async function registerUser(req, res) {
       return res.status(400).json({
         message: "password is required",
       });
+    if (!data.dob)
+      return res.status(400).json({
+        message: "dob is required",
+      });
     const salt = await bcrypt.genSalt(10);
     // const hash = await bcrypt.hash(data.password, salt);
     const hashPassword = bcrypt.hashSync(data.password, salt);
@@ -137,9 +141,113 @@ async function verifyResetPassword(req, res) {
     res.status(400).json({ message: error.message });
   }
 }
+// AUTHENTICATED CONTROLLER i.e They have login before they can access the controller
+async function getProfile(req, res) {
+  try {
+    const user = req.user;
+    user.password = undefined;
+    return res.status(200).json({
+      message: "User Fetched successfully",
+      data: user,
+    });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+}
+
+async function updateProfile(req, res) {
+  try {
+    const { name, country } = req.body;
+    const userReq = req.user;
+    const user = await UserModel.findById(userReq._id);
+    // if (name) user.name = name;
+    // if (country) user.country = country;
+
+    // await user.save();
+    await UserModel.findOneAndUpdate(
+      { _id: user._id },
+      {
+        name: name || user.name,
+        country: country || user.country,
+      }
+    );
+
+    return res.status(200).json({
+      message: "User Profile updated successfully",
+    });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+}
+
+async function updatePassword(req, res) {
+  try {
+    const { oldPassword, newPassword } = req.body;
+    const user = req.user;
+    if (!oldPassword)
+      return res.status(400).json({
+        message: "oldPassword is required",
+      });
+
+    if (!newPassword)
+      return res.status(400).json({
+        message: "newPassword is required",
+      });
+
+    const isPasswordMatched = await bcrypt.compare(oldPassword, user.password);
+
+    if (!isPasswordMatched) {
+      return res.status(400).json({ message: "Incorrect Password" });
+    }
+
+    const salt = await bcrypt.genSalt(10);
+    const hashPassword = bcrypt.hashSync(newPassword, salt);
+    // user.password = hashPassword;
+
+    // await user.save(); // save the user to the database
+    await UserModel.findOneAndUpdate(
+      { _id: user._id },
+      {
+        password: hashPassword,
+      }
+    );
+    return res.status(200).json({
+      message: "User Password updated successfully",
+    });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+}
+
+async function deleteProfile(req, res) {
+  try {
+    const { password } = req.body;
+    const user = req.user;
+    if (!password)
+      return res.status(400).json({
+        message: "password is required",
+      });
+
+    const isPasswordMatched = await bcrypt.compare(password, user.password);
+
+    if (!isPasswordMatched) {
+      return res.status(400).json({ message: "Incorrect Password" });
+    }
+    return res.status(200).json({
+      message: "User Deleted successfully",
+    });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+}
+
 module.exports = {
   registerUser,
   loginUser,
   sendResetPassword,
+  getProfile,
   verifyResetPassword,
+  deleteProfile,
+  updatePassword,
+  updateProfile,
 };
