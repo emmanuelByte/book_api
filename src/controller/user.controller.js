@@ -233,6 +233,7 @@ async function deleteProfile(req, res) {
     if (!isPasswordMatched) {
       return res.status(400).json({ message: "Incorrect Password" });
     }
+    await UserModel.findOneAndDelete({ _id: user._id });
     return res.status(200).json({
       message: "User Deleted successfully",
     });

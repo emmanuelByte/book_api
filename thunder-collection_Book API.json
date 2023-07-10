@@ -1,0 +1,174 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Book API",
+    "dateExported": "2023-07-09T22:03:29.386Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "b7af09ae-7c15-4ed7-9979-7f9700985033",
+            "name": "Book",
+            "containerId": "",
+            "created": "2023-07-09T21:45:00.473Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "dbfa231f-a8f9-45b8-a7b4-d108bb221939",
+            "name": "User",
+            "containerId": "",
+            "created": "2023-07-09T21:45:10.410Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "0f0c4401-7f33-487d-8f08-d9039f8e53ae",
+            "name": "Saved Book",
+            "containerId": "b7af09ae-7c15-4ed7-9979-7f9700985033",
+            "created": "2023-07-09T21:46:34.708Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "59286d84-44ec-4fe4-8b69-c094890ca448",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "b7af09ae-7c15-4ed7-9979-7f9700985033",
+            "name": "Get Single Book",
+            "url": "localhost:3000/books/64ab23ee6d49045172c11426",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-09T21:45:39.851Z",
+            "modified": "2023-07-09T21:50:17.159Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d32f8d73-d2ad-4471-9f2b-9c505b29c281",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "b7af09ae-7c15-4ed7-9979-7f9700985033",
+            "name": "Get All Books",
+            "url": "localhost:3000/books",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-09T21:46:05.645Z",
+            "modified": "2023-07-09T21:46:05.645Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "12f2ed50-d1b6-4da0-89bf-2e3b50fc8517",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "0f0c4401-7f33-487d-8f08-d9039f8e53ae",
+            "name": "create save book",
+            "url": "localhost:3000/books/saveBook",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-07-09T21:46:48.630Z",
+            "modified": "2023-07-09T21:50:33.755Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"bookId\":\"64ab23ee6d49045172c11426\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            },
+            "tests": []
+        },
+        {
+            "_id": "a4d2f8b6-b391-42dc-89c1-036b572e270a",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "dbfa231f-a8f9-45b8-a7b4-d108bb221939",
+            "name": "Register",
+            "url": "localhost:3000/user/register",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-07-09T21:48:13.002Z",
+            "modified": "2023-07-09T21:48:59.129Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"example1@gmail.com\",\n  \"name\":\"Example\",\n  \"country\":\"Nigeria\",\n  \"password\":\"12345\",\n  \"dob\":\"2022-01-01\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bb5a6621-60f5-4463-9082-0287d74ca15a",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "dbfa231f-a8f9-45b8-a7b4-d108bb221939",
+            "name": "Login",
+            "url": "localhost:3000/user/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-07-09T21:48:27.808Z",
+            "modified": "2023-07-09T21:48:27.808Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"example1@gmail.com\",\n  \"password\": \"12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b9699a00-82c0-499c-99d7-44817f16f374",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "0f0c4401-7f33-487d-8f08-d9039f8e53ae",
+            "name": "Get Saved Book",
+            "url": "localhost:3000/books/savedBooks",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-07-09T21:51:38.802Z",
+            "modified": "2023-07-09T21:56:27.872Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            },
+            "tests": []
+        },
+        {
+            "_id": "cd98eaa6-32f8-49d8-b4ff-3d22b7f96b33",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "dbfa231f-a8f9-45b8-a7b4-d108bb221939",
+            "name": "Get Profile",
+            "url": "localhost:3000/user/profile",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-07-09T21:57:42.328Z",
+            "modified": "2023-07-09T21:57:42.328Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            },
+            "tests": []
+        },
+        {
+            "_id": "a4376c4a-92b9-4c1b-8dd7-d51983bf8fdf",
+            "colId": "42bf254a-64b0-4782-96da-566e596c5144",
+            "containerId": "0f0c4401-7f33-487d-8f08-d9039f8e53ae",
+            "name": "Delete saved book",
+            "url": "localhost:3000/books/savedBooks/64ab23ee6d49045172c11426",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-07-09T21:58:23.062Z",
+            "modified": "2023-07-09T21:58:58.716Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "{{token}}"
+            },
+            "tests": []
+        }
+    ]
+}

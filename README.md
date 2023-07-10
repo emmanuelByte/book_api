@@ -27,3 +27,6 @@ name,
 author,
 description,
 }
+
+1 Book to many User
+1 User to many Book

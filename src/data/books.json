@@ -2,241 +2,406 @@
   {
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "description": "A Pulitzer Prize-winning novel set in the 1930s, exploring racial injustice and moral growth through the eyes of a young girl in Alabama."
+    "description": "A Pulitzer Prize-winning novel set in the 1930s, exploring racial injustice and moral growth through the eyes of a young girl in Alabama.",
+    "genre": "Fiction",
+    "publication_date": "1960-07-11",
+    "publisher": "J. B. Lippincott & Co.",
+    "isbn": "9780061120084",
+    "language": "English",
+    "page_count": 336,
+    "rating": 4.5,
+    "price": 12.99,
+    "cover_image": "https://example.com/to_kill_a_mockingbird.jpg",
+    "availability": "In stock"
   },
   {
     "title": "1984",
     "author": "George Orwell",
-    "description": "A dystopian novel portraying a totalitarian society where Big Brother watches everyone, and individualism is brutally suppressed."
+    "description": "A dystopian novel portraying a totalitarian society where Big Brother watches everyone, and individualism is brutally suppressed.",
+    "genre": "Fiction",
+    "publication_date": "1949-06-08",
+    "publisher": "Secker & Warburg",
+    "isbn": "9780451524935",
+    "language": "English",
+    "page_count": 328,
+    "rating": 4.3,
+    "price": 10.99,
+    "cover_image": "https://example.com/1984.jpg",
+    "availability": "In stock"
   },
   {
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "description": "A classic romantic novel revolving around the Bennett sisters, their pursuit of love, and the societal norms of 19th-century England."
+    "description": "A classic romantic novel revolving around the Bennett sisters, their pursuit of love, and the societal norms of 19th-century England.",
+    "genre": "Fiction",
+    "publication_date": "1813-01-28",
+    "publisher": "T. Egerton, Whitehall",
+    "isbn": "9781503284183",
+    "language": "English",
+    "page_count": 432,
+    "rating": 4.6,
+    "price": 8.99,
+    "cover_image": "https://example.com/pride_and_prejudice.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "description": "Set in the 1920s, this novel depicts the American Dream, wealth, and the tragic love story of Jay Gatsby and Daisy Buchanan."
+    "description": "Set in the 1920s, this novel depicts the American Dream, wealth, and the tragic love story of Jay Gatsby and Daisy Buchanan.",
+    "genre": "Fiction",
+    "publication_date": "1925-04-10",
+    "publisher": "Charles Scribner's Sons",
+    "isbn": "9780743273565",
+    "language": "English",
+    "page_count": 180,
+    "rating": 4.2,
+    "price": 9.99,
+    "cover_image": "https://example.com/the_great_gatsby.jpg",
+    "availability": "In stock"
   },
   {
     "title": "Moby-Dick",
     "author": "Herman Melville",
-    "description": "A tale of Captain Ahab's obsession with hunting down the white whale, Moby-Dick, as it explores themes of obsession and the nature of evil."
+    "description": "A tale of Captain Ahab's obsession with hunting down the white whale, Moby-Dick, as it explores themes of obsession and the nature of evil.",
+    "genre": "Fiction",
+    "publication_date": "1851-10-18",
+    "publisher": "Harper & Brothers",
+    "isbn": "9781503210083",
+    "language": "English",
+    "page_count": 720,
+    "rating": 4.0,
+    "price": 14.99,
+    "cover_image": "https://example.com/moby_dick.jpg",
+    "availability": "In stock"
   },
   {
     "title": "To the Lighthouse",
     "author": "Virginia Woolf",
-    "description": "A stream-of-consciousness novel that delves into the complex relationships and thoughts of the Ramsay family during their visits to a lighthouse."
+    "description": "A stream-of-consciousness novel that delves into the complex relationships and thoughts of the Ramsay family during their visits to a lighthouse.",
+    "genre": "Fiction",
+    "publication_date": "1927-05-05",
+    "publisher": "Hogarth Press",
+    "isbn": "9780156907392",
+    "language": "English",
+    "page_count": 209,
+    "rating": 4.1,
+    "price": 11.99,
+    "cover_image": "https://example.com/to_the_lighthouse.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "description": "A coming-of-age novel narrated by Holden Caulfield, a disenchanted teenager struggling with the phoniness of society."
+    "description": "A coming-of-age novel narrated by Holden Caulfield, a disenchanted teenager struggling with the phoniness of society.",
+    "genre": "Fiction",
+    "publication_date": "1951-07-16",
+    "publisher": "Little, Brown and Company",
+    "isbn": "9780316769174",
+    "language": "English",
+    "page_count": 277,
+    "rating": 4.4,
+    "price": 10.99,
+    "cover_image": "https://example.com/the_catcher_in_the_rye.jpg",
+    "availability": "In stock"
   },
   {
     "title": "Brave New World",
     "author": "Aldous Huxley",
-    "description": "A futuristic novel where humans are genetically engineered and socially conditioned to maintain stability and pleasure in a controlled society."
+    "description": "A futuristic novel where humans are genetically engineered and socially conditioned to maintain stability and pleasure in a controlled society.",
+    "genre": "Fiction",
+    "publication_date": "1932-01-01",
+    "publisher": "Chatto & Windus",
+    "isbn": "9780060850524",
+    "language": "English",
+    "page_count": 311,
+    "rating": 4.2,
+    "price": 9.99,
+    "cover_image": "https://example.com/brave_new_world.jpg",
+    "availability": "In stock"
   },
   {
     "title": "Jane Eyre",
     "author": "Charlotte Bronte",
-    "description": "A bildungsroman following Jane Eyre's journey from her difficult childhood to becoming a governess and her passionate love for Mr. Rochester."
-  },
-  {
-    "title": "The Lord of the Rings",
-    "author": "J.R.R. Tolkien",
-    "description": "An epic fantasy trilogy set in Middle-earth, chronicling the perilous quest to destroy the One Ring and defeat the Dark Lord Sauron."
+    "description": "A bildungsroman following Jane Eyre's journey from her difficult childhood to becoming a governess and her passionate love for Mr. Rochester.",
+    "genre": "Fiction",
+    "publication_date": "1847-10-16",
+    "publisher": "Smith, Elder & Co.",
+    "isbn": "9780062359784",
+    "language": "English",
+    "page_count": 532,
+    "rating": 4.5,
+    "price": 12.99,
+    "cover_image": "https://example.com/jane_eyre.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "description": "A prelude to The Lord of the Rings, following Bilbo Baggins as he embarks on an adventure with a group of dwarves to reclaim their homeland."
+    "description": "A prelude to The Lord of the Rings, following Bilbo Baggins as he embarks on an adventure with a group of dwarves to reclaim their homeland.",
+    "genre": "Fantasy",
+    "publication_date": "1937-09-21",
+    "publisher": "George Allen & Unwin",
+    "isbn": "9780618260300",
+    "language": "English",
+    "page_count": 310,
+    "rating": 4.6,
+    "price": 9.99,
+    "cover_image": "https://example.com/the_hobbit.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Odyssey",
     "author": "Homer",
-    "description": "An ancient Greek epic poem that recounts the hero Odysseus' journey home after the Trojan War, encountering mythical creatures and challenges."
+    "description": "An ancient Greek epic poem that recounts the hero Odysseus' journey home after the Trojan War, encountering mythical creatures and challenges.",
+    "genre": "Poetry",
+    "publication_date": "2022-01-01",
+    "publisher": "N/A",
+    "isbn": "9780143039952",
+    "language": "Greek",
+    "page_count": 416,
+    "rating": 4.3,
+    "price": 11.99,
+    "cover_image": "https://example.com/the_odyssey.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Alchemist",
     "author": "Paulo Coelho",
-    "description": "A spiritual allegorical novel about Santiago, an Andalusian shepherd boy, who embarks on a quest to find a hidden treasure."
+    "description": "A spiritual allegorical novel about Santiago, an Andalusian shepherd boy, who embarks on a quest to find a hidden treasure.",
+    "genre": "Fiction",
+    "publication_date": "1988-06-01",
+    "publisher": "HarperOne",
+    "isbn": "9780061122415",
+    "language": "English",
+    "page_count": 197,
+    "rating": 4.1,
+    "price": 8.99,
+    "cover_image": "https://example.com/the_alchemist.jpg",
+    "availability": "In stock"
   },
   {
     "title": "Crime and Punishment",
     "author": "Fyodor Dostoevsky",
-    "description": "Set in 19th-century St. Petersburg, this psychological novel explores the mental anguish and moral dilemmas of Rodion Raskolnikov, a poor ex-student."
+    "description": "Set in 19th-century St. Petersburg, this psychological novel explores the mental anguish and moral dilemmas of Rodion Raskolnikov, a poor ex-student.",
+    "genre": "Fiction",
+    "publication_date": "1866-01-15",
+    "publisher": "The Russian Messenger",
+    "isbn": "9780679734505",
+    "language": "Russian",
+    "page_count": 671,
+    "rating": 4.4,
+    "price": 13.99,
+    "cover_image": "https://example.com/crime_and_punishment.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
-    "description": "A novel depicting the moral corruption of Dorian Gray, who remains eternally youthful while a portrait of him ages and reflects his sins."
+    "description": "A novel depicting the moral corruption of Dorian Gray, who remains eternally youthful while a portrait of him ages and reflects his sins.",
+    "genre": "Fiction",
+    "publication_date": "1890-07-01",
+    "publisher": "Ward, Lock and Company",
+    "isbn": "9780486278070",
+    "language": "English",
+    "page_count": 250,
+    "rating": 4.3,
+    "price": 10.99,
+    "cover_image": "https://example.com/dorian_gray.jpg",
+    "availability": "In stock"
   },
   {
     "title": "One Hundred Years of Solitude",
     "author": "Gabriel Garcia Marquez",
-    "description": "A multi-generational family saga blending fantasy and reality, exploring the history of the fictional town of Macondo."
+    "description": "A multi-generational family saga blending fantasy and reality, exploring the history of the fictional town of Macondo.",
+    "genre": "Fiction",
+    "publication_date": "1967-05-30",
+    "publisher": "Harper & Row",
+    "isbn": "9780060883287",
+    "language": "Spanish",
+    "page_count": 417,
+    "rating": 4.2,
+    "price": 11.99,
+    "cover_image": "https://example.com/one_hundred_years_of_solitude.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Chronicles of Narnia",
     "author": "C.S. Lewis",
-    "description": "A series of fantasy novels following the adventures of children who enter the magical world of Narnia through a wardrobe."
+    "description": "A series of fantasy novels following the adventures of children who enter the magical world of Narnia through a wardrobe.",
+    "genre": "Fantasy",
+    "publication_date": "1950-1956",
+    "publisher": "Geoffrey Bles",
+    "isbn": "9780064404990",
+    "language": "English",
+    "page_count": 767,
+    "rating": 4.5,
+    "price": 14.99,
+    "cover_image": "https://example.com/narnia.jpg",
+    "availability": "In stock"
   },
   {
     "title": "Wuthering Heights",
     "author": "Emily Bronte",
-    "description": "A dark tale of love and revenge on the Yorkshire moors, centered around the passionate and tumultuous relationship between Heathcliff and Catherine Earnshaw."
+    "description": "A dark tale of love and revenge on the Yorkshire moors, centered around the passionate and tumultuous relationship between Heathcliff and Catherine Earnshaw.",
+    "genre": "Fiction",
+    "publication_date": "1847-12-29",
+    "publisher": "Thomas Cautley Newby",
+    "isbn": "9780553212587",
+    "language": "English",
+    "page_count": 357,
+    "rating": 4.1,
+    "price": 10.99,
+    "cover_image": "https://example.com/wuthering_heights.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Grapes of Wrath",
     "author": "John Steinbeck",
-    "description": "Set during the Great Depression, this novel tells the story of the Joad family's journey from Oklahoma to California in search of a better life."
+    "description": "Set during the Great Depression, this novel tells the story of the Joad family's journey from Oklahoma to California in search of a better life.",
+    "genre": "Fiction",
+    "publication_date": "1939-04-14",
+    "publisher": "The Viking Press",
+    "isbn": "9780143039433",
+    "language": "English",
+    "page_count": 464,
+    "rating": 4.4,
+    "price": 12.99,
+    "cover_image": "https://example.com/grapes_of_wrath.jpg",
+    "availability": "In stock"
   },
   {
     "title": "Anna Karenina",
     "author": "Leo Tolstoy",
-    "description": "A Russian classic exploring themes of love, infidelity, and societal norms through the tragic tale of Anna Karenina and Count Vronsky."
-  },
-  {
-    "title": "Frankenstein",
-    "author": "Mary Shelley",
-    "description": "A Gothic novel depicting Dr. Victor Frankenstein's creation of a monster and the moral implications and consequences of his actions."
-  },
-  {
-    "title": "The Adventures of Huckleberry Finn",
-    "author": "Mark Twain",
-    "description": "A satirical novel following the adventures of Huck Finn and Jim, a runaway slave, as they navigate the Mississippi River and confront racism."
-  },
-  {
-    "title": "The Count of Monte Cristo",
-    "author": "Alexandre Dumas",
-    "description": "An adventure novel about Edmond Dantes, who seeks revenge against those who wronged him, set against the backdrop of early 19th-century France."
-  },
-  {
-    "title": "Don Quixote",
-    "author": "Miguel de Cervantes",
-    "description": "A comedic and satirical novel that follows the delusional knight Don Quixote and his loyal squire, Sancho Panza, on their quest for chivalry and honor."
-  },
-  {
-    "title": "The Kite Runner",
-    "author": "Khaled Hosseini",
-    "description": "Set against the backdrop of Afghanistan's tumultuous history, this novel explores themes of guilt, redemption, and the complex relationship between two friends."
-  },
-  {
-    "title": "Slaughterhouse-Five",
-    "author": "Kurt Vonnegut",
-    "description": "A satirical science fiction novel blending time travel and war, exploring the life of Billy Pilgrim, an American soldier in World War II."
-  },
-  {
-    "title": "The Scarlet Letter",
-    "author": "Nathaniel Hawthorne",
-    "description": "Set in 17th-century Puritan Boston, this novel follows Hester Prynne, who wears a scarlet letter 'A' as a mark of her adultery, exploring themes of sin, guilt, and redemption."
-  },
-  {
-    "title": "The Iliad",
-    "author": "Homer",
-    "description": "An ancient Greek epic poem that depicts the Trojan War and the wrath of Achilles, exploring the themes of honor, glory, and the futility of war."
-  },
-  {
-    "title": "The Brothers Karamazov",
-    "author": "Fyodor Dostoevsky",
-    "description": "A philosophical novel exploring the lives of three brothers and their father, delving into moral dilemmas, faith, and the nature of human existence."
-  },
-  {
-    "title": "Les Misérables",
-    "author": "Victor Hugo",
-    "description": "Set in 19th-century France, this epic novel follows the lives of various characters, including Jean Valjean, against the backdrop of revolution and social injustice."
+    "description": "A Russian classic exploring themes of love, infidelity, and societal norms through the tragic tale of Anna Karenina and Count Vronsky.",
+    "genre": "Fiction",
+    "publication_date": "1878-03-28",
+    "publisher": "The Russian Messenger",
+    "isbn": "9780143035008",
+    "language": "Russian",
+    "page_count": 864,
+    "rating": 4.3,
+    "price": 15.99,
+    "cover_image": "https://example.com/anna_karenina.jpg",
+    "availability": "In stock"
   },
   {
     "title": "The Divine Comedy",
     "author": "Dante Alighieri",
-    "description": "An epic poem divided into three parts—Inferno, Purgatorio, and Paradiso—depicting the journey of Dante through Hell, Purgatory, and Heaven."
+    "description": "An epic poem divided into three parts—Inferno, Purgatorio, and Paradiso—depicting the journey of Dante through Hell, Purgatory, and Heaven.",
+    "genre": "Poetry",
+    "publication_date": "1320",
+    "publisher": "N/A",
+    "isbn": "9780141197494",
+    "language": "Italian",
+    "page_count": 798,
+    "rating": 4.5,
+    "price": 14.99,
+    "cover_image": "https://example.com/divine_comedy.jpg",
+    "availability": "In stock"
   },
   {
-    "title": "The Old Man and the Sea",
-    "author": "Ernest Hemingway",
-    "description": "A novella that tells the story of an aging fisherman's struggle with a giant marlin in the Gulf Stream, exploring themes of determination and resilience."
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "description": "A Gothic novel exploring the consequences of scientific ambition and the moral responsibility of creation, as Victor Frankenstein brings a creature to life.",
+    "genre": "Fiction",
+    "publication_date": "1818-01-01",
+    "publisher": "Lackington, Hughes, Harding, Mavor & Jones",
+    "isbn": "9780199537150",
+    "language": "English",
+    "page_count": 280,
+    "rating": 4.2,
+    "price": 10.99,
+    "cover_image": "https://example.com/frankenstein.jpg",
+    "availability": "In stock"
   },
   {
-    "title": "The Giver",
-    "author": "Lois Lowry",
-    "description": "A dystopian novel set in a future society where emotions and memories are suppressed, following Jonas as he discovers the truth and challenges the system."
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "description": "A bildungsroman and sequel to The Adventures of Tom Sawyer, following Huck Finn and Jim, an escaped slave, as they journey along the Mississippi River.",
+    "genre": "Fiction",
+    "publication_date": "1884-12-10",
+    "publisher": "Chatto & Windus",
+    "isbn": "9780486280615",
+    "language": "English",
+    "page_count": 366,
+    "rating": 4.3,
+    "price": 11.99,
+    "cover_image": "https://example.com/huckleberry_finn.jpg",
+    "availability": "In stock"
   },
   {
-    "title": "War and Peace",
-    "author": "Leo Tolstoy",
-    "description": "An epic historical novel set in 19th-century Russia, intertwining the lives of various characters against the backdrop of the Napoleonic Wars."
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "description": "A psychological novel following a group of boys stranded on an uninhabited island, exploring the dark depths of human nature and civilization.",
+    "genre": "Fiction",
+    "publication_date": "1954-09-17",
+    "publisher": "Faber and Faber",
+    "isbn": "9780571200535",
+    "language": "English",
+    "page_count": 224,
+    "rating": 4.1,
+    "price": 9.99,
+    "cover_image": "https://example.com/lord_of_the_flies.jpg",
+    "availability": "In stock"
   },
   {
-    "title": "The Book Thief",
-    "author": "Markus Zusak",
-    "description": "Narrated by Death, this novel follows Liesel Meminger, a young girl in Nazi Germany, as she steals books and finds solace in the power of words."
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "description": "A story of friendship, betrayal, and redemption set against the backdrop of Afghanistan's turbulent history, following Amir and Hassan.",
+    "genre": "Fiction",
+    "publication_date": "2003-05-29",
+    "publisher": "Riverhead Books",
+    "isbn": "9781594631931",
+    "language": "English",
+    "page_count": 371,
+    "rating": 4.5,
+    "price": 12.99,
+    "cover_image": "https://example.com/kite_runner.jpg",
+    "availability": "In stock"
   },
   {
-    "title": "The Stranger",
-    "author": "Albert Camus",
-    "description": "An existential novel exploring the absurdity of human existence through the story of Meursault, who faces a moral crisis after committing a murder."
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "description": "An anti-war novel blending elements of science fiction, following Billy Pilgrim as he becomes unstuck in time and experiences the horrors of World War II.",
+    "genre": "Fiction",
+    "publication_date": "1969-03-31",
+    "publisher": "Delacorte Press",
+    "isbn": "9780385333849",
+    "language": "English",
+    "page_count": 275,
+    "rating": 4.2,
+    "price": 10.99,
+    "cover_image": "https://example.com/slaughterhouse_five.jpg",
+    "availability": "In stock"
   },
   {
-    "title": "The Little Prince",
-    "author": "Antoine de Saint-Exupéry",
-    "description": "A philosophical novella about a young prince who visits various planets and learns important life lessons about friendship, love, and loss."
+    "title": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "description": "Set in 17th-century Puritan Boston, this novel follows Hester Prynne, who wears a scarlet letter 'A' as a mark of her adultery, exploring themes of sin, guilt, and redemption.",
+    "genre": "Fiction",
+    "publication_date": "1850-03-16",
+    "publisher": "Ticknor, Reed, and Fields",
+    "isbn": "9780553210095",
+    "language": "English",
+    "page_count": 238,
+    "rating": 4.1,
+    "price": 9.99,
+    "cover_image": "https://example.com/scarlet_letter.jpg",
+    "availability": "In stock"
   },
   {
-    "title": "The Hobbit",
-    "author": "J.R.R. Tolkien",
-    "description": "A prelude to The Lord of the Rings, following Bilbo Baggins as he embarks on an adventure with a group of dwarves to reclaim their homeland."
-  },
-  {
-    "title": "Gone with the Wind",
-    "author": "Margaret Mitchell",
-    "description": "Set during the American Civil War and Reconstruction era, this novel follows Scarlett O'Hara's life, her loves, and the changing Southern society."
-  },
-  {
-    "title": "The Hunger Games",
-    "author": "Suzanne Collins",
-    "description": "A dystopian novel set in Panem, a nation divided into districts, where teenagers are forced to participate in a televised fight to the death."
-  },
-  {
-    "title": "A Tale of Two Cities",
-    "author": "Charles Dickens",
-    "description": "Set in London and Paris before and during the French Revolution, this historical novel explores the lives of various characters caught in the turmoil."
-  },
-  {
-    "title": "The Handmaid's Tale",
-    "author": "Margaret Atwood",
-    "description": "A dystopian novel set in the totalitarian Republic of Gilead, where women are subjugated and Offred narrates her struggle for survival and freedom."
-  },
-  {
-    "title": "The Outsiders",
-    "author": "S.E. Hinton",
-    "description": "A coming-of-age novel that follows two rival groups, the Greasers and the Socs, and explores themes of social class, identity, and loyalty."
-  },
-  {
-    "title": "The Hobbit",
-    "author": "J.R.R. Tolkien",
-    "description": "A prelude to The Lord of the Rings, following Bilbo Baggins as he embarks on an adventure with a group of dwarves to reclaim their homeland."
-  },
-  {
-    "title": "The Fault in Our Stars",
-    "author": "John Green",
-    "description": "A heartwarming and tragic love story between two teenagers with cancer, exploring themes of love, mortality, and the meaning of life."
-  },
-  {
-    "title": "The Secret Life of Bees",
-    "author": "Sue Monk Kidd",
-    "description": "Set in the 1960s South, this novel follows a young girl who escapes her troubled home and finds solace and healing in the company of beekeeping sisters."
-  },
-  {
-    "title": "The Book of Lost Things",
-    "author": "John Connolly",
-    "description": "A dark fantasy novel following a young boy who discovers a mysterious book that transports him into a world filled with fairy tales and nightmares."
-  },
-  {
-    "title": "The Color Purple",
-    "author": "Alice Walker",
-    "description": "Set in the early 20th century, this novel chronicles the life of Celie, an African American woman, as she navigates abuse, racism, and self-discovery."
+    "title": "The Iliad",
+    "author": "Homer",
+    "description": "An ancient Greek epic poem that depicts the Trojan War and the wrath of Achilles, exploring the themes of honor, glory, and the futility of war.",
+    "genre": "Poetry",
+    "publication_date": "2022-01-01",
+    "publisher": "N/A",
+    "isbn": "9780140275360",
+    "language": "Greek",
+    "page_count": 683,
+    "rating": 4.4,
+    "price": 13.99,
+    "cover_image": "https://example.com/iliad.jpg",
+    "availability": "In stock"
   }
 ]
